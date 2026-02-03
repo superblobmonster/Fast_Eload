@@ -1,0 +1,3116 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3926efdf-399f-4c24-8acc-9ebd9286bc20")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 227.33 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06645e9a-b1c7-4b2f-b4bf-322c7eda67cc")
+	)
+	(junction
+		(at 134.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08068dbf-1349-4b75-8d31-b85432fa6547")
+	)
+	(junction
+		(at 204.47 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c72dcac-a5c7-4ed2-abd2-681fbe0a57c5")
+	)
+	(junction
+		(at 123.19 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d67f797-6076-4d3b-86c3-629811fae7c9")
+	)
+	(junction
+		(at 146.05 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249f2b79-05ba-4691-bb34-b4eda78aeb40")
+	)
+	(junction
+		(at 71.12 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a23c8ee-ab53-403f-9fbd-42f848631132")
+	)
+	(junction
+		(at 111.76 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "300ea221-26e0-43bc-b61e-9e7e9823fca8")
+	)
+	(junction
+		(at 19.05 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32e79377-bc1b-4e24-87f2-b2c5cd9a49ad")
+	)
+	(junction
+		(at 168.91 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6f8d8e-0ed2-4a5b-babc-8968ab87b7e6")
+	)
+	(junction
+		(at 168.91 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c2469f-42fd-4797-a429-c1ba2f16243a")
+	)
+	(junction
+		(at 49.53 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b544807-a5fb-4aef-9f48-8053bceaa8a7")
+	)
+	(junction
+		(at 157.48 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f62438-1b84-46de-9740-558d380ed6fb")
+	)
+	(junction
+		(at 39.37 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590a8bb2-a958-43be-99cf-9b0d40cbab65")
+	)
+	(junction
+		(at 49.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d92fe6d-67c2-488c-a134-3cbe5ee45d13")
+	)
+	(junction
+		(at 29.21 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64431ec5-6ed9-4370-916e-ccdd3e84d82a")
+	)
+	(junction
+		(at 71.12 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d5a0a4-3275-45e6-83e1-983f47f86106")
+	)
+	(junction
+		(at 193.04 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bef6df5-21d7-4209-b94c-7b9f3e3d55fe")
+	)
+	(junction
+		(at 180.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "809f1da4-e949-471a-8475-a3b5852c2181")
+	)
+	(junction
+		(at 19.05 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83969002-d3f9-4f8b-9c44-7541ea34b67d")
+	)
+	(junction
+		(at 204.47 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83bc3ba8-265a-474d-939f-d4aec4edd404")
+	)
+	(junction
+		(at 251.46 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8730c231-06f0-4bb9-b32b-8a942ab038b4")
+	)
+	(junction
+		(at 29.21 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8771e165-dd60-4273-9032-0e4a6d3d9ac4")
+	)
+	(junction
+		(at 111.76 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e3637b-fefe-41f0-9c97-969d057a0edd")
+	)
+	(junction
+		(at 240.03 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b093d93-8cec-4f94-90d8-3de22c56a403")
+	)
+	(junction
+		(at 215.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bcb7c2c-5048-4081-9596-2b65b75b47c5")
+	)
+	(junction
+		(at 146.05 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "909a1e32-5e6e-4b80-9d8c-a21932431f85")
+	)
+	(junction
+		(at 180.34 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a46eeab2-854a-492b-ae53-e53f902291f9")
+	)
+	(junction
+		(at 60.96 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa79ad5e-714d-4ffe-be6a-fe87708c58f3")
+	)
+	(junction
+		(at 101.6 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b431acfd-a58d-45c7-8d10-55423c138b93")
+	)
+	(junction
+		(at 215.9 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd44494a-0649-4879-a35d-2e397dd362e1")
+	)
+	(junction
+		(at 39.37 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c747d3e3-4a73-40eb-996a-75398538e9bf")
+	)
+	(junction
+		(at 240.03 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92c26a3-0f54-4bec-8624-e417b24b23b6")
+	)
+	(junction
+		(at 60.96 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb1eb79-39f4-47f6-a83f-d54fe20ab6b7")
+	)
+	(junction
+		(at 157.48 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3db094-5c82-4e6d-84bb-39a70f43057c")
+	)
+	(junction
+		(at 251.46 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf59b9bf-afb3-4b77-be9f-51d1c2a11751")
+	)
+	(junction
+		(at 123.19 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe61802-a631-4333-b3b0-1bba943d0d52")
+	)
+	(junction
+		(at 227.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e426889c-c331-4798-b996-f065c3ea6a8f")
+	)
+	(junction
+		(at 101.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e472b131-30d1-43f9-a922-baf8b322f53f")
+	)
+	(junction
+		(at 134.62 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebab2e5a-9c3c-4fb7-b28d-cc39cfcebf19")
+	)
+	(junction
+		(at 193.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f647a7f5-0c7d-4fe6-8701-15d2f8559960")
+	)
+	(wire
+		(pts
+			(xy 251.46 25.4) (xy 251.46 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01593e72-a282-4831-bcba-68c41c1dfb5b")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 227.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cb613c-5b78-4a5a-bfa0-1a45845db01a")
+	)
+	(wire
+		(pts
+			(xy 19.05 25.4) (xy 19.05 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0fab99-0a58-41f7-a6be-e85773934dd3")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac44f48-1847-4079-b3d0-dc1310ce2b69")
+	)
+	(wire
+		(pts
+			(xy 204.47 35.56) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115317a0-e158-4ea0-8189-ab6ed3ee998d")
+	)
+	(wire
+		(pts
+			(xy 19.05 35.56) (xy 19.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2a4dd3-1c50-4e79-866b-4896063f2ee0")
+	)
+	(wire
+		(pts
+			(xy 193.04 35.56) (xy 193.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2175c928-072b-4d39-a33f-fcdda366336c")
+	)
+	(wire
+		(pts
+			(xy 157.48 35.56) (xy 168.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258920dd-7eae-4f94-aa76-389ee6baaa5b")
+	)
+	(wire
+		(pts
+			(xy 146.05 25.4) (xy 146.05 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29644be9-c621-408e-a811-aa168a9b90a9")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 71.12 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8f94a9-365d-4da2-92f3-72be19e15904")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f547339-5eda-4106-963b-a8f9c425a2f1")
+	)
+	(wire
+		(pts
+			(xy 193.04 25.4) (xy 204.47 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37efdc10-6dd8-4828-9c43-5377b23d4e60")
+	)
+	(wire
+		(pts
+			(xy 146.05 25.4) (xy 157.48 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e7716a-c077-43ad-b5d0-cb1d1245e6e0")
+	)
+	(wire
+		(pts
+			(xy 227.33 35.56) (xy 240.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4098d797-713e-4f2f-8ed5-70ef2a8ef490")
+	)
+	(wire
+		(pts
+			(xy 123.19 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a01ad4-5901-4f58-b756-7768c0176167")
+	)
+	(wire
+		(pts
+			(xy 168.91 25.4) (xy 168.91 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4738922b-da15-4852-bbcb-765b7e50ab49")
+	)
+	(wire
+		(pts
+			(xy 215.9 35.56) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e49ee4-d15a-4e46-b8c0-22b0d449be0e")
+	)
+	(wire
+		(pts
+			(xy 204.47 25.4) (xy 215.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e917ab-99dd-431b-8e70-45ad18c85392")
+	)
+	(wire
+		(pts
+			(xy 39.37 25.4) (xy 49.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c27bdf6-637b-49a3-8e0f-260fa05ca67e")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 71.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e74a45e-1219-4524-b7d0-24801cef5e90")
+	)
+	(wire
+		(pts
+			(xy 29.21 25.4) (xy 29.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ece042a-e3e5-417a-b93b-efca26d57788")
+	)
+	(wire
+		(pts
+			(xy 29.21 25.4) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5063de84-b5fe-422e-b3de-02477d1b767c")
+	)
+	(wire
+		(pts
+			(xy 146.05 35.56) (xy 146.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5075011c-b4bc-4c09-a0b4-fdf94bef7d49")
+	)
+	(wire
+		(pts
+			(xy 157.48 35.56) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5190f420-6321-49ed-9028-8245e9eeb504")
+	)
+	(wire
+		(pts
+			(xy 49.53 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5497cadd-7f88-4372-9d31-853aaac54478")
+	)
+	(wire
+		(pts
+			(xy 146.05 35.56) (xy 157.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c6cfe0-7a28-469d-9a78-936baf35326a")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 215.9 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5884e8fe-a57b-4ba0-a2de-436efc42c785")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 111.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606f8eb3-6fa2-4aae-ba05-ebf1bd325c0e")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a71915-dcbf-46f7-940c-8bd7c0a4bb97")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 180.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61225c59-0b80-4b50-ade2-b11baaecc590")
+	)
+	(wire
+		(pts
+			(xy 49.53 25.4) (xy 49.53 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e0be11-c2be-4886-b63d-757479ed5b6a")
+	)
+	(wire
+		(pts
+			(xy 49.53 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e5ecc4-d043-4f74-b748-33048e3bc610")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70671f3a-ce79-48f9-9e8a-aedd77517bfd")
+	)
+	(wire
+		(pts
+			(xy 123.19 35.56) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71670780-3f4a-4280-93be-5a078ac53fab")
+	)
+	(wire
+		(pts
+			(xy 29.21 35.56) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7175a360-6ac0-49bd-83d6-a9bbbaee3ab7")
+	)
+	(wire
+		(pts
+			(xy 264.16 35.56) (xy 264.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7186078d-2c3d-42a3-be9a-73a1ef0213b0")
+	)
+	(wire
+		(pts
+			(xy 204.47 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756a6747-4e4f-4ab2-a894-89db2432bd92")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 101.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7993825b-5648-4953-8cb1-20112c407b0d")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0d553b-edcd-4a4d-a15a-2ae2a3a06f9a")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 193.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb53fc6-ce41-4419-a6f3-7d1818533582")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 264.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfcea8e-95ab-448b-b789-d99d4257ceda")
+	)
+	(wire
+		(pts
+			(xy 227.33 35.56) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfd4070-403f-42d0-94b7-1bf45fa002e8")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2452c7-5e73-4b0b-a7ef-a829821f1c67")
+	)
+	(wire
+		(pts
+			(xy 264.16 25.4) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff93de5-3464-4dd6-8353-ffdfb61579f3")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 193.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8217cabb-5da8-4f1f-ac39-0110e81a2750")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 251.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba34152-153a-4bb0-ad18-df4c8ad0c4fd")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 60.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baf5e97-45e5-4beb-9749-df01f07e4924")
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e566233-58ce-46d4-9847-76c60ad24105")
+	)
+	(wire
+		(pts
+			(xy 157.48 25.4) (xy 157.48 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940b3a97-4f61-4a9d-a2d9-9ab63d59ca36")
+	)
+	(wire
+		(pts
+			(xy 157.48 25.4) (xy 168.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b34fb6-b211-408e-91c8-0553f735e8b5")
+	)
+	(wire
+		(pts
+			(xy 39.37 25.4) (xy 39.37 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5900d9-26ca-45f4-a21a-cc56e138d6e1")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb95bd4-2108-4532-a9f8-e0f2ec79d57c")
+	)
+	(wire
+		(pts
+			(xy 215.9 35.56) (xy 227.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f798e6-1c47-4907-a8b7-29d9d2e57cce")
+	)
+	(wire
+		(pts
+			(xy 19.05 25.4) (xy 29.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a652e1-452c-4f1a-a6bf-d642ab6c635f")
+	)
+	(wire
+		(pts
+			(xy 240.03 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44f2a2e-bd95-48d2-bb79-6641e44d1a3f")
+	)
+	(wire
+		(pts
+			(xy 17.78 35.56) (xy 19.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c9e271-ad21-4358-9866-012533788c1c")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 180.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac713117-39ed-4141-874f-215e1772d4d8")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef3ea36-e954-418f-89c2-e4533da9ead5")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8872cf-8013-4bf1-944f-156079a27b71")
+	)
+	(wire
+		(pts
+			(xy 49.53 35.56) (xy 49.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e75c9c-3707-4540-be73-734a486cbd1d")
+	)
+	(wire
+		(pts
+			(xy 240.03 25.4) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35c3d22-d84b-4dbe-9839-f5d69b8a0c68")
+	)
+	(wire
+		(pts
+			(xy 168.91 25.4) (xy 180.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaa8723-d473-4a4c-b988-e785ecaa66e3")
+	)
+	(wire
+		(pts
+			(xy 193.04 25.4) (xy 193.04 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf28048-4121-491c-9fd7-44496419285a")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 251.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf48d2dd-35bb-45db-99c5-436013797a3c")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfccafa6-4b29-4d6f-855b-958fd605859d")
+	)
+	(wire
+		(pts
+			(xy 204.47 25.4) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ace9a0-9370-498f-ba33-95043d01cb11")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 146.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49d4485-06d9-41c2-9b7c-d227ad3f8a3a")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 134.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0aade6-23e5-40c4-bac7-5261b6fcef40")
+	)
+	(wire
+		(pts
+			(xy 111.76 25.4) (xy 123.19 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02943d7-adfa-4ffc-9b57-f80470ccc394")
+	)
+	(wire
+		(pts
+			(xy 227.33 25.4) (xy 240.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2081868-c2aa-4196-bccc-447c314a4db8")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a8c09e-a7cb-487f-8f81-67420d9e6214")
+	)
+	(wire
+		(pts
+			(xy 227.33 25.4) (xy 227.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eace54e6-e3d6-40d9-adbf-80be9d39f2d0")
+	)
+	(wire
+		(pts
+			(xy 111.76 25.4) (xy 111.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb05298e-4660-4398-b4ba-a9ece5f3e2fc")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb3a868-7a99-42e6-850d-95621a7ac52e")
+	)
+	(wire
+		(pts
+			(xy 123.19 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c9e6e3-6052-4700-904b-7d434d24dfbb")
+	)
+	(wire
+		(pts
+			(xy 251.46 25.4) (xy 264.16 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f10c35-f9b8-456d-9d37-66b4f0713b3b")
+	)
+	(wire
+		(pts
+			(xy 19.05 35.56) (xy 29.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3573339-b184-45aa-a65f-cf4dea9d5dd2")
+	)
+	(wire
+		(pts
+			(xy 123.19 25.4) (xy 123.19 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f364f28e-5998-467a-8be9-fefe35510855")
+	)
+	(wire
+		(pts
+			(xy 193.04 35.56) (xy 204.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b50323-2de0-46f8-b642-d69b08af3811")
+	)
+	(wire
+		(pts
+			(xy 29.21 35.56) (xy 39.37 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4db4ef6-e70a-46de-950d-44bfec206cf8")
+	)
+	(wire
+		(pts
+			(xy 17.78 25.4) (xy 19.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dfc2a6-7637-42cf-985e-0de0cf9d6d61")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9f2feb-d937-45de-bb0f-406e573b634c")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb99af5-5030-475b-84e2-12149d7204af")
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff15fb2e-2db7-4a52-b7bf-bbe48811cc53")
+	)
+	(hierarchical_label "TJ1"
+		(shape passive)
+		(at 17.78 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51bec3ed-186f-4f8b-86aa-7b0a2d0de6ef")
+	)
+	(hierarchical_label "TJ2"
+		(shape passive)
+		(at 17.78 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5a57139-9579-4abd-b93d-145bde0a1a8d")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c222c1-1184-40ff-be32-4b2914b0b7b1")
+		(property "Reference" "TJ16"
+			(at 184.15 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 184.15 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 181.3052 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2416c9a-0b32-4663-b6b1-2477ce9cfd76")
+		)
+		(pin "2"
+			(uuid "2539b5f4-efb7-4b67-a844-46c3754348d4")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e9dc98c-6425-43b7-8c49-f2ba7f0f8925")
+		(property "Reference" "TJ10"
+			(at 115.57 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 115.57 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 112.7252 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "788e275b-fe39-449c-8df8-a385d198361f")
+		)
+		(pin "2"
+			(uuid "6415bb91-0f55-4cab-b41d-9cb8703e705a")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "266bb2ec-5b49-422d-8359-396f0ed1af24")
+		(property "Reference" "TJ9"
+			(at 105.41 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 105.41 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 102.5652 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d197db3-4757-40f2-9e9e-41f109ed9c69")
+		)
+		(pin "2"
+			(uuid "6b50a7f1-b83a-4796-bd2d-7f338f710e5d")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 29.21 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e028ef-b8c0-48c1-9014-8a7d347234cf")
+		(property "Reference" "TJ2"
+			(at 33.02 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 33.02 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 30.1752 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1682e2a0-d9cc-41ad-8c2c-2430d1930baa")
+		)
+		(pin "2"
+			(uuid "13fc8230-e135-491d-99ed-a14fe91b81dd")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "417c57b6-d39c-4275-af9b-b1958ebe5174")
+		(property "Reference" "TJ5"
+			(at 64.77 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 64.77 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 61.9252 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a79932-868d-4a8d-bbe2-e53ad17a03d6")
+		)
+		(pin "2"
+			(uuid "9ac7aa60-b7ce-4539-93e2-3c4ed52e63b2")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41835a42-767e-444c-aca2-09c716413c48")
+		(property "Reference" "TJ3"
+			(at 43.18 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 43.18 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 40.3352 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b80b94b7-340e-44f6-bbdc-ea3a2d32674c")
+		)
+		(pin "2"
+			(uuid "99e540d9-9553-4174-b852-6ba56dcc07aa")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4256776e-1897-4a21-a34b-a18873948113")
+		(property "Reference" "TJ15"
+			(at 172.72 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 172.72 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 169.8752 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26673b95-be59-4e71-bc59-7704cb09fee5")
+		)
+		(pin "2"
+			(uuid "a1969a16-38b6-483e-bc3f-67d8c50fbdd6")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb056fd-4030-4723-822c-6335086e77ec")
+		(property "Reference" "TJ18"
+			(at 208.28 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 208.28 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 205.4352 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9221783d-a7aa-4daf-a767-269443c694dd")
+		)
+		(pin "2"
+			(uuid "982a21d3-5205-4ff9-81ff-0167d2ba2e7b")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6864a52f-6042-46b3-a207-85e407b6a1f8")
+		(property "Reference" "TJ20"
+			(at 231.14 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 231.14 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 228.2952 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81bee586-be03-478f-9765-94ee6791dc77")
+		)
+		(pin "2"
+			(uuid "883942a9-bc8b-470d-b7c9-c254e4f0f77d")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75bf5975-26da-4b7d-bbdc-d5a5d3d362ac")
+		(property "Reference" "TJ23"
+			(at 267.97 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 267.97 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 265.1252 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd4caaa6-33d6-412f-bdda-9897315c8373")
+		)
+		(pin "2"
+			(uuid "d5c7684c-8508-4cb0-a6ff-2e7d343cac17")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d539eda-3fdc-4e6e-903e-5b1980fdac72")
+		(property "Reference" "TJ17"
+			(at 196.85 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 196.85 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 194.0052 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "801f7cb0-a70f-4ec6-adfe-b5fe8a847585")
+		)
+		(pin "2"
+			(uuid "4a103d9f-1e47-4af1-a799-d09886627219")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "878a641b-10b1-472d-a0d8-a8032176af8c")
+		(property "Reference" "TJ11"
+			(at 127 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 127 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 124.1552 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f310bf3-37fb-4a5f-9347-34871a74d97d")
+		)
+		(pin "2"
+			(uuid "3f2f78b9-6688-4d8f-9fb5-049ef44571d4")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa5b297-d418-437a-962d-10f5e5de45df")
+		(property "Reference" "TJ21"
+			(at 243.84 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 243.84 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 240.9952 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f349760f-f985-418e-8844-434323f72901")
+		)
+		(pin "2"
+			(uuid "c13c4c24-05e8-4826-9c44-feaf2f4ff311")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9143998d-4dd7-4a20-a389-c6442e76bda2")
+		(property "Reference" "TJ19"
+			(at 219.71 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 219.71 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 216.8652 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766b0d9d-47fc-4859-9a6e-b834f183165b")
+		)
+		(pin "2"
+			(uuid "308f1ca4-5490-4ed4-bdd0-d86aa4df7ece")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52d3a86-134f-4e3c-ab2f-af68997e1172")
+		(property "Reference" "TJ13"
+			(at 149.86 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 149.86 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 147.0152 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c779b580-3788-4df2-8cdf-590a6efa311b")
+		)
+		(pin "2"
+			(uuid "9232d551-65aa-4725-8f64-00d854448c4d")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 251.46 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abf09386-8fec-4ae2-8adc-46a3ac55a6c4")
+		(property "Reference" "TJ22"
+			(at 256.54 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 255.27 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 252.4252 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5147d6e-b449-46de-9cd4-07b0f181c765")
+		)
+		(pin "2"
+			(uuid "b6ad5e9b-9536-4c9d-8e22-0ace4fe5ebd4")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05a2a67-4776-42bd-910c-ab131989289e")
+		(property "Reference" "TJ4"
+			(at 53.34 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 53.34 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 50.4952 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10c506f4-ed20-40ea-a4ab-6f3ab3f2f333")
+		)
+		(pin "2"
+			(uuid "81961bfa-3d0e-4211-9aaa-f5f69d5ef2bf")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b18688bb-2364-48ee-8831-2aff9eecb4ea")
+		(property "Reference" "TJ14"
+			(at 161.29 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 161.29 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 158.4452 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b73d807-5cf3-431c-ac76-a8502be25046")
+		)
+		(pin "2"
+			(uuid "ff62c010-2a6a-4725-82f4-6a710fe29588")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c712d8e8-fcbf-43d9-9a0d-61848a5c11a1")
+		(property "Reference" "TJ6"
+			(at 74.93 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 74.93 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 72.0852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485a1cc0-f2a5-4728-a27e-000b7caa6eab")
+		)
+		(pin "2"
+			(uuid "ca7f59e3-dfeb-4a59-9e59-531f4b9dedd9")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9ae8ae3-b734-4d2f-8e18-27a2bb9b4078")
+		(property "Reference" "TJ1"
+			(at 22.86 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 22.86 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 20.0152 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27fa2da-0207-490f-ab7d-e00df88f2edc")
+		)
+		(pin "2"
+			(uuid "80128d26-5e5a-4ba6-af40-eb8ca3ef7aea")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7f6d9a-60f5-4607-a927-cea490ca82a5")
+		(property "Reference" "TJ12"
+			(at 138.43 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THJP0612ABT1"
+			(at 138.43 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 135.5852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60157/thjp.pdf"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Jumper"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mates with" ""
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "THJP0612AST1"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c2f801-0be7-4a1d-a51e-42d9a9edbcf3")
+		)
+		(pin "2"
+			(uuid "ab7f2f83-32ce-43b1-9d95-600527f27b9d")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201/a41947c2-e4b9-466f-8179-fd8733404a2c"
+					(reference "TJ12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

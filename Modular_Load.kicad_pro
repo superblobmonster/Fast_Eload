@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
-          "width": 0.975
+          "height": 5.6,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -512,10 +512,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "FAB/",
+      "plot": "FABv3/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Modular_Load.step",
       "svg": "",
       "vrml": ""
     },
@@ -603,6 +603,12 @@
           "label": "Mates with",
           "name": "Mates with",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate",
+          "name": "Alternate",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -666,6 +672,10 @@
     [
       "b7c09c15-282b-4731-8942-008851172201",
       "Root"
+    ],
+    [
+      "a41947c2-e4b9-466f-8179-fd8733404a2c",
+      "Thermal Jumpers"
     ]
   ],
   "text_variables": {}
