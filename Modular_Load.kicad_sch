@@ -3174,6 +3174,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BOM:https://www.digikey.com/en/mylists/list/430F3M7L10"
+		(exclude_from_sim no)
+		(at 252.222 16.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09c734af-8914-4ec1-825b-6b8bb8884cd5")
+	)
 	(text "Thermal design:\nTjc, ~0.51C/W\nSolder, ~0.025 C/W\nCopper coin under FET, ~.04 C/W\nTIM: ??? Gel75, 0.2mm, ~0.14 C/W\n\nThermal jumpers??\nTIM to heatsink, 1W/mk, 65x40mm 0.5mm, 0.19 C/W"
 		(exclude_from_sim no)
 		(at 152.4 20.32 0)
@@ -3194,6 +3204,16 @@
 			)
 		)
 		(uuid "17b5e91c-5e6c-4a92-85f3-8afb0f9170bb")
+	)
+	(text "Zener not needed\nBOM simplification"
+		(exclude_from_sim no)
+		(at 84.836 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eaa8d38-4e61-443f-974c-b78dff34b6d6")
 	)
 	(text "UNREG LED if feedback loop differs by > 0.1V?"
 		(exclude_from_sim no)
@@ -6069,6 +6089,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "CRCW06031M00FKEA"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b20da0ad-0a60-4e1a-b01d-4917ed1372f2")
 		)
@@ -6140,6 +6169,15 @@
 			)
 		)
 		(property "Mates with" ""
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "C0603C100J5GACTU"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -7663,6 +7701,85 @@
 			(project ""
 				(path "/b7c09c15-282b-4731-8942-008851172201"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 99.06 184.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "433ab9ae-5ce9-4811-9355-41702b120b7b")
+		(property "Reference" "D3"
+			(at 96.52 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.6V"
+			(at 96.52 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31987.pdf"
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "DDZ5V6BSF-7"
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b64f68-7b3c-45f4-bcf3-333342153c66")
+		)
+		(pin "2"
+			(uuid "2f8019ac-26c6-4ecf-9c2d-142bd3738c0e")
+		)
+		(instances
+			(project "Modular_Load"
+				(path "/b7c09c15-282b-4731-8942-008851172201"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10375,6 +10492,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "C0603C100J5GACTU"
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65576e1f-30d2-4f89-b44d-a77ee7421ea2")
 		)
@@ -11304,6 +11430,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "CRCW06031M00FKEA"
+			(at 59.69 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72bbbfa9-13c4-4464-b7af-f6778c59541f")
 		)
@@ -11762,94 +11897,6 @@
 			(project ""
 				(path "/b7c09c15-282b-4731-8942-008851172201"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f74378bd-f0fb-438f-8ca7-d25ef23a1c29")
-		(property "Reference" "R9"
-			(at 101.6 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 101.6 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.282 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mates with" ""
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "CRCW06032K00FKEA"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8aabcaf0-bc98-4bce-9a59-d2b6d0f4573b")
-		)
-		(pin "1"
-			(uuid "06912ecd-e54c-4183-a013-427c7b58e909")
-		)
-		(instances
-			(project ""
-				(path "/b7c09c15-282b-4731-8942-008851172201"
-					(reference "R9")
 					(unit 1)
 				)
 			)
