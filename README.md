@@ -29,11 +29,12 @@ Additional parts/accessories:
 + Validate thermal performance
 + Measure control bandwidth
 + Create control board with:
+  + 10MS/s DAC
   + Slew rate limiting
   + SOA protections
-  + Unregulation detection
-  + Isolated input signal
+  + V/I Monitoring: ADS7253?, Unregulation detection
+  + Isolated input signal, 10MS/s ADC
   + Paralleling features, enable controls
 + Add temperature monitoring
 + Heatsink and interface design for equipment rack enclosure
-+ Design a fully isolated THT version with a SOT-227 FET
++ Design a fully electrically isolated THT version with a SOT-227 FET
