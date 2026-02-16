@@ -1,5 +1,8 @@
 # Fast_Eload
 Designed in KiCad 9.0.7 and FreeCAD 1.0.2
+<img width="2060" height="1294" alt="image" src="https://github.com/user-attachments/assets/fb9dddaf-7609-4da1-aa46-137cc6314d64" />
+<img width="1591" height="647" alt="image" src="https://github.com/user-attachments/assets/9b4fbd02-94e9-4baf-81ac-324f7c7539c5" />
+
 ## Design Specs
 + 10A/us slew rate
 + 15A RMS, 50A peak, 20A fuse
