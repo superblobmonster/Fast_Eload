@@ -31,8 +31,9 @@ Additional parts/accessories:
 + Create control board with:
   + 10MS/s DAC
   + Slew rate limiting
-  + SOA protections
-  + V/I Monitoring: ADS7253?, Unregulation detection
+  + V/I Monitoring: ADS7253?
+    + Unregulation detection
+    + SOA protections
   + Isolated input signal, 10MS/s ADC
   + Paralleling features, enable controls
 + Add temperature monitoring
