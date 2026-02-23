@@ -3259,7 +3259,7 @@
 	)
 	(text "IO Considerations:\n-Pwr\n-GND\n-Set current\n-UNREG\n-Temp\n-Fault/Protect"
 		(exclude_from_sim no)
-		(at 92.456 26.67 0)
+		(at 91.186 14.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3270,7 +3270,7 @@
 	)
 	(text "-Input floats to V_Offset when not driven\n-Add two SMD heatsink fins on top?\n-Reduce size of inductor. Remove inductor?"
 		(exclude_from_sim no)
-		(at 18.542 110.236 0)
+		(at 16.764 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 		)
 		(uuid "b5d76796-055d-4b1c-a6bc-064dfd706e53")
 	)
-	(text "MCPCB, preferably with direct attachment for thermals.\n\nGreater than  10MHz -3dB current bandwidth\nFixed 10A / V gain\n50A max set-current\n10mA max leakage when off\n20mA accuracy\n5V-10V DC < 1A power supply\n\nIsolated input preferred\nOver-power protection preferred\n"
+	(text "Design Goals:\nGreater than  10MHz -3dB current bandwidth\nFixed 10A / V gain\n50A max set-current\n10mA max leakage when off\n20mA accuracy\n5V-10V DC < 1A power supply\n\nIsolated input preferred\nOver-power protection preferred\n"
 		(exclude_from_sim no)
 		(at 14.478 26.416 0)
 		(effects
@@ -3304,7 +3304,18 @@
 		)
 		(uuid "d9e78485-8b0c-4d28-b0fa-c91c3efbcd82")
 	)
-	(text "Each module report:\n-Temp\n-Voltage\n-Current"
+	(text "-Keep 50ohm termination by default\n-No; improve heat spreader and via structures\n-TBD, inductor does not appear to be needed."
+		(exclude_from_sim no)
+		(at 16.764 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e40a4eb8-52b6-40a3-ade6-9ca17134b1ae")
+	)
+	(text "Each module report:\n-Temp?\n-Voltage\n-Current"
 		(exclude_from_sim no)
 		(at 59.436 29.464 0)
 		(effects
@@ -6581,6 +6592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mates With" "71600-308LF"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e76c7357-ceba-4c74-9229-13e421739014")
 		)
@@ -8813,15 +8833,6 @@
 		)
 		(property "PartNumber" "IGT65R025D2ATMA1"
 			(at 210.312 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mates with" ""
-			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
