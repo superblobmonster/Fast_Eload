@@ -515,7 +515,7 @@
       "plot": "FAB/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Modular_Load.step",
+      "step": "3D_Models/Modular_Load.step",
       "svg": "",
       "vrml": ""
     },
