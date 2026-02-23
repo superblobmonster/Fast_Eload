@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "FABv3/",
+      "plot": "FAB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Modular_Load.step",

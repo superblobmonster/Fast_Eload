@@ -575,7 +575,7 @@
 		(uuid "1f967f3b-74f4-4923-b297-610e2166b784")
 	)
 	(embedded_fonts no)
-	(model "/home/guy/Documents/E-Load/PG-HSOF-8_3D.stp"
+	(model "${KIPRJMOD}/3D_Models/PG-HSOF-8_3D.stp"
 		(offset
 			(xyz 0 0 0)
 		)
