@@ -1,8 +1,8 @@
 # Fast_Eload
 Designed in KiCad 9.0.7 and FreeCAD 1.0.2
 
-CC-BY-SA-4.0
-<img width="2060" height="1294" alt="image" src="https://github.com/user-attachments/assets/fb9dddaf-7609-4da1-aa46-137cc6314d64" />
+License: CC-BY-SA-4.0
+<img width="2246" height="1187" alt="image" src="https://github.com/user-attachments/assets/bfb4c947-e698-462d-ad35-141e00b02941" />
 <img width="1591" height="647" alt="image" src="https://github.com/user-attachments/assets/9b4fbd02-94e9-4baf-81ac-324f7c7539c5" />
 
 ## Design Specs
